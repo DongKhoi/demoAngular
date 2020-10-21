@@ -14,7 +14,7 @@ export class NewsfeedComponent implements OnInit {
     ngOnInit() {
       var script = document.createElement("script");
       script.type = "text/javascript";
-      script.src = "../assets/js/script.js";
+      script.src = "assets/js/script.js";
       this.elementRef.nativeElement.appendChild(script);
     }
     getPath(){
